@@ -124,13 +124,13 @@ li {
   color: var(--accent-color);
 }
 
-.my-projects-link .my-work-experiance-section {}
+/* My education */
 
-.education__institution {
+.my-education-institution {
   color: var(--main-txt-color);
 }
 
-.education__course {
+.my-education-course {
   color: var(--accent-color);
 }
 
@@ -142,14 +142,14 @@ li {
   padding: 40px 0;
 }
 
-.Contact-section,
-.Tech-skills-section,
-.Soft-skills-section,
+.contact-section,
+.tech-skills-section,
+.soft-skills-section,
 .languages-section {
   margin: 50px 0 0 40px;
 }
 
-.Side-bar-title {
+.side-bar-title {
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
@@ -159,7 +159,7 @@ li {
 }
 
 /* Photo section */
-.Photo {
+.photo {
   width: 370px;
   height: 354px;
   left: 40px;
@@ -168,7 +168,7 @@ li {
 
 /* Contacts section */
 
-.Contact-section-title {
+.contact-section-title {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -177,7 +177,7 @@ li {
   margin-right: 5px;
 }
 
-.Contact-section-link {
+.contact-section-link {
   color: var(--sidebar-link-color);
   font-style: normal;
   font-weight: normal;
@@ -187,15 +187,15 @@ li {
 
 /* Skills sections */
 
-.Skills-list {
+.skills-list {
   padding: 0 0 0 17px;
 }
 
-.Skills-item {
+.skills-item {
   color: var(--accent-color);
 }
 
-.Skils-item-text {
+.skils-item-text {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -203,7 +203,7 @@ li {
   color: var(--sidebar-txt-color);
 }
 
-/*languages sections */
+/*Languages sections */
 
 .languages-list {
   padding: 0 0 0 17px;
@@ -221,6 +221,6 @@ li {
   color: var(--sidebar-txt-color);
 }
 
-.languages__level {
+.languages-item-level {
   color: var(--sidebar-link-color);
 }
