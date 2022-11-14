@@ -34,7 +34,25 @@ li {
 /* Main content section */
 
 .main-content-section {
-  padding: 100px 90px;
+  padding: 100px 135px 100px 90px;
+  position: relative;
+}
+
+.print-link {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 16px;
+  color: var(--main-txt-color);
+  margin-bottom: 10px;
+  text-decoration: none;
+  text-align: left;
+}
+
+.print {
+  font-size: large;
+  position: absolute;
+  top: 30px;
+  right: 30px;
 }
 
 .main-content-title {
@@ -99,6 +117,7 @@ li {
   font-size: 14px;
   line-height: 24px;
   color: var(--minor-txt-color);
+  text-decoration: none;
 }
 
 .my-projects-text {
@@ -124,6 +143,10 @@ li {
   color: var(--accent-color);
 }
 
+.my-work-list {
+  padding-left: 20px;
+}
+
 /* My education */
 
 .my-education-institution {
@@ -132,6 +155,10 @@ li {
 
 .my-education-course {
   color: var(--accent-color);
+}
+
+.my-education-list {
+  padding-left: 20px;
 }
 
 /* Sidebar section */
@@ -160,8 +187,6 @@ li {
 
 /* Photo section */
 .photo {
-  width: 370px;
-  height: 354px;
   left: 40px;
   top: 80px;
 }
@@ -183,6 +208,7 @@ li {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+  text-decoration: none;
 }
 
 /* Skills sections */
