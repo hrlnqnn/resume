@@ -1,12 +1,12 @@
 :root {
-  --main-bg-color: #d3b599;
-  --sidebar-bg-color: #354461;
-  --container-bg-color: #f2f3ee;
-  --sidebar-txt-color: #ffffff;
-  --sidebar-link-color: #d6b596;
+  --main-bg-color: #ffffff;
+  --sidebar-bg-color: #efe7e4;
+  --container-bg-color: #ffffff;
+  --sidebar-txt-color: #354461;
+  --sidebar-link-color: #354461;
   --main-txt-color: #354461;
-  --minor-txt-color: #864b10;
-  --accent-color: #d97f5e;
+  --minor-txt-color: #354461;
+  --accent-color: #354461;
 }
 
 body {
@@ -117,7 +117,6 @@ li {
   font-size: 14px;
   line-height: 24px;
   color: var(--minor-txt-color);
-  text-decoration: none;
 }
 
 .my-projects-text {
@@ -126,7 +125,6 @@ li {
   font-size: 14px;
   line-height: 24px;
   color: var(--minor-txt-color);
-  margin-left: 5px;
 }
 
 .my-projects-bracket {
@@ -208,7 +206,6 @@ li {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  text-decoration: none;
 }
 
 /* Skills sections */
