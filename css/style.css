@@ -16,11 +16,17 @@ body {
 
 h4 {
   color: var(--main-txt-color);
+  font-size: 14px;
 }
 
 p,
 li {
   color: var(--minor-txt-color);
+  font-size: 14px;
+}
+
+span {
+  font-size: 14px;
 }
 
 .main-container {
@@ -58,7 +64,7 @@ li {
 .main-content-title {
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 27px;
   color: var(--main-txt-color);
   margin-bottom: 10px;
@@ -72,7 +78,7 @@ li {
 .about-me-profession {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 17px;
   color: var(--main-txt-color);
   margin-bottom: 20px;
@@ -186,7 +192,7 @@ span {
 .side-bar-title {
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 27px;
   color: var(--sidebar-txt-color);
   margin-bottom: 10px;
