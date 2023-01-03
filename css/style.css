@@ -16,17 +16,17 @@ body {
 
 h4 {
   color: var(--main-txt-color);
-  font-size: 14px;
+  font-size: 18px;
 }
 
 p,
 li {
   color: var(--minor-txt-color);
-  font-size: 14px;
+  font-size: 18px;
 }
 
 span {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .main-container {
@@ -34,20 +34,20 @@ span {
   flex-direction: row-reverse;
   width: 1200px;
   background: var(--container-bg-color);
-  margin: 40px auto;
+  margin: 10px auto;
 }
 
 /* Main content section */
 
 .main-content-section {
-  padding: 25px 135px 25px 90px;
+  padding: 25px 50px 25px 50px;
   position: relative;
 }
 
 .print-link {
   font-size: 15px;
   font-weight: 700;
-  line-height: 16px;
+  /* line-height: 16px; */
   color: var(--main-txt-color);
   margin-bottom: 10px;
   text-decoration: none;
@@ -58,14 +58,14 @@ span {
   font-size: large;
   position: absolute;
   top: 30px;
-  right: 30px;
+  right: -50px;
 }
 
 .main-content-title {
   font-style: normal;
   font-weight: bold;
-  font-size: 20px;
-  line-height: 27px;
+  font-size: 25px;
+  /* line-height: 27px; */
   color: var(--main-txt-color);
   margin-bottom: 10px;
 }
@@ -78,8 +78,8 @@ span {
 .about-me-profession {
   font-style: normal;
   font-weight: bold;
-  font-size: 20px;
-  line-height: 17px;
+  font-size: 25px;
+  /* line-height: 17px; */
   color: var(--main-txt-color);
   margin-bottom: 20px;
 }
@@ -87,8 +87,9 @@ span {
 .about-me-name {
   font-style: normal;
   font-weight: bold;
-  font-size: 45px;
-  line-height: 55px;
+  font-size: 50px;
+  /* line-height: 55px; */
+  margin-top: 20px;
   margin-bottom: 25px;
   color: var(--main-txt-color);
 }
@@ -96,8 +97,8 @@ span {
 .about-me-descriptions {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 18px;
+  /* line-height: 20px; */
   color: var(--minor-txt-color);
   text-align: justify;
 }
@@ -120,24 +121,24 @@ span {
 .my-projects-link {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 18px;
+  /* line-height: 20px; */
   color: var(--minor-txt-color);
 }
 
 .my-projects-text {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 18px;
+  /* line-height: 20px; */
   color: var(--minor-txt-color);
 }
 
 .my-projects-bracket {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 18px;
+  /* line-height: 20px; */
   color: var(--main-txt-color);
 }
 
@@ -171,7 +172,7 @@ span {
 
 .my-education-list li {
   padding-bottom: 10px;
-  line-height: 20px;
+  /* line-height: 20px; */
 }
 
 /* Sidebar section */
@@ -186,20 +187,22 @@ span {
 .tech-skills-section,
 .soft-skills-section,
 .languages-section {
-  margin: 50px 0 0 40px;
+  margin: 50px 0 0 20px;
 }
 
 .side-bar-title {
   font-style: normal;
   font-weight: bold;
-  font-size: 20px;
-  line-height: 27px;
+  font-size: 25px;
+  /* line-height: 27px; */
   color: var(--sidebar-txt-color);
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 
 /* Photo section */
 .photo {
+  width: 100%;
+  height: auto;
   left: 40px;
   top: 80px;
 }
@@ -209,8 +212,8 @@ span {
 .contact-section-title {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 18px;
+  /* line-height: 24px; */
   color: var(--sidebar-txt-color);
   margin-right: 5px;
 }
@@ -219,8 +222,8 @@ span {
   color: var(--sidebar-link-color);
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 18px;
+  /* line-height: 24px; */
 }
 
 /* Skills sections */
@@ -236,8 +239,8 @@ span {
 .skils-item-text {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 18px;
+  /* line-height: 24px; */
   color: var(--sidebar-txt-color);
 }
 
@@ -254,8 +257,8 @@ span {
 .languages-item-text {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 18px;
+  /* line-height: 24px; */
   color: var(--sidebar-txt-color);
 }
 
