@@ -48,7 +48,7 @@ span {
   font-size: 15px;
   font-weight: 700;
   /* line-height: 16px; */
-  color: var(--main-txt-color);
+  color: transparent;
   margin-bottom: 10px;
   text-decoration: none;
   text-align: left;
@@ -58,7 +58,7 @@ span {
   font-size: large;
   position: absolute;
   top: 30px;
-  right: -50px;
+  right: -100px;
 }
 
 .main-content-title {
